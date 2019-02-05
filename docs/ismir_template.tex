@@ -1,0 +1,248 @@
+% Sample LaTeX file for creating a paper in the Morgan Kaufmannn two 
+% column, 8 1/2 by 11 inch proceedings format. 
+ 
+% Modified for ISMIR 2003 by Michael Droettboom (mdboom@jhu.edu)
+
+% When using the proceed.sty LaTeX template, we recommend using this
+% LaTeX source file as a template.
+
+\documentclass{article} \usepackage{proceed}
+ 
+\title{ISMIR 2003 Formatting Template}
+
+\author{ 
+  \bf 1st Author \\ % Author's names are \bf
+  1st author's affiliation \\ 
+  1st author's address \\ 
+  2nd line of address \\ 
+  \tt author@school.edu % e-mail addresses are \tt
+\And 
+  \bf 2nd Author \\ 
+  2nd author's affiliation \\
+  2nd author's address \\ 
+  2nd line of address \\ 
+  \tt author@school.edu 
+\And 
+  \bf 3rd Author \\ 
+  3rd author's affiliation \\ 
+  3rd author's address \\ 
+  2nd line of address \\
+  \tt author@school.edu
+}
+
+\begin{document}
+
+% Generate the title and author information
+\maketitle
+
+% Generate the copyright notice
+\notice
+
+\begin{abstract}
+  The abstract paragraph should be indented 0.25 inches on both left
+  and right-hand margins.  Use 10pt (point) type, with a vertical
+  spacing of 10.5 points.  ``Abstract'' must be centered, bold, and
+  12pt.  Two line spaces (21pt) precede the abstract.  The abstract
+  must be limited to one paragraph, maximum 200 words.
+\end{abstract}
+
+\section{Introduction}
+
+The proceedings are the records of the conference.  To do this, we ask
+that authors follow some simple guidelines.  In essence, we ask you to
+make your paper look exactly like this document.  The easiest way to
+do this is simply to download a template from the ISMIR 2003 web site
+(\texttt{http://ismir2003.ismir.net}), and replace the content with
+your own material.  The template presented here is based on Morgan
+Kaufmann's two-column proceedings format, and borrows some
+instructions from past ISMIR templates.
+
+\section{Page size}
+
+All material on each page should fit within a rectangle of 7.25"
+$\times$ 9.75" (18.42cm $\times$ 24.77cm), centered on the page,
+beginning 0.625" (1.59cm) from the top of the page and ending with
+0.625" (1.59cm) from the bottom. The right and left margins should be
+0.625" (1.59cm).  The text should be in two 3.5" (8.89cm) columns with
+a 0.25" (0.64cm) gutter.
+
+\section{Typeset text}
+
+\subsection{Normal or Body Text}
+
+Please use a 10pt (point) Times font, or other Roman font with serifs, as
+close as possible in appearance to Times.  Please use sans-serif or
+non-proportional fonts only for special purposes, such as
+distinguishing source code text.
+
+There is one half line space between paragraphs, with no indent.
+
+\subsection{Title and Authors}
+
+The title is 16pt Times, bold, caps, lower case, centered between 2
+horizontal rules.  Both rules are 1pt thick.
+
+Authors' names are centered.  The lead author's name is to be listed
+first (left-most), and the co-authors' names after.  If the addresses
+for all authors are the same, include the address only once, centered.
+If the authors have different addresses, put the addresses under each
+authors' name.
+
+\subsection{First Page Copyright Notice}
+
+Please include the copyright notice exactly as it appears here in the
+lower left-hand corner of the page.  It is set in 8pt Times, with
+a 0.5pt box.
+
+\subsection{Page Numbering, Headers and Footers}
+
+Do not include headers, footers or page numbers in your
+submission. These will be added when the publications are assembled.
+
+\section{First level headings}
+
+First level headings are in Times 12pt bold, flush left with 1
+line of space above the section head, and 1/2 space below it.  For a
+section header immediately followed by a subsection header, the space
+should be merged.
+
+\subsection{Second level headings}
+
+Second level headings are in Times 10pt bold, flush left, with 1
+line of space above the section head, and 1/2 space below it.
+
+\subsubsection{Third level headings}
+
+Second level headings are in Times 10pt italic, flush left, with
+1/2 line of space above the section head, and 1/2 space below it.
+
+\paragraph{Fourth level headings.}
+
+Fourth level headings must be flush left, initial caps, and Times
+10pt italic, with 1/2 line of space above the section head.
+Fourth level headings are not numbered, and must end in a period.
+
+\subsection{Footnotes, Citations, and Figures}
+
+\subsubsection{Footnotes}
+
+Indicate footnotes with a number\footnote{Sample of first footnote} in
+the text.  Use 8pt type for footnotes.  Place the footnotes at the
+bottom of the page on which they appear.  Precede the footnote with a
+0.5pt horizontal rule.\footnote{Sample of the second
+footnote}
+
+\subsubsection{Citations}
+
+Citations should include the author name(s) and date.  For example,
+``Hert and Marchionini (1998) found that'', or ``as found in other
+studies (Hert and Marchionini, 1998; Clarke and Willett, 1997).''
+
+Whether paraphrasing or quoting directly, the source must be
+credited. For a direct quote supply page numbers.
+
+\subsubsection{Figures, tables, and captions}
+
+All artwork must be centered, neat, clean, and legible.  All lines
+should be very dark for purposes of reproduction and art work should
+not be hand-drawn.  The proceedings is not in color, and therefore all
+figures must be comprehensible in black-and-white form.
+
+Figure and table numbers and captions always appear below the figure.
+Leave 1 line space between the figure or table and the caption.  Each
+figure or table is numbered consecutively. Captions should be Times
+10pt.
+
+Place Tables/Figures in text should be as close to the reference as
+possible (see Figure 1 and Table 1).  They may extend across both
+columns to a maximum width of 7.25" (17.78cm).
+
+% An example table
+\begin{table}[htb]
+  \begin{center}
+    \begin{tabular}{|l|l|l|l|}
+      \hline 
+      \bf Graphics & \bf Top & \bf In-between & \bf Bottom \\
+      \hline
+      Tables & End & Last & First \\
+      \hline
+      Figures & Good & Similar & Very well \\
+      \hline
+    \end{tabular}
+    \caption{Table captions should be placed below the table}
+  \end{center}
+\end{table}
+
+% An example figure
+\begin{figure}[htb] 
+  \vspace{1.5in}
+  \caption{Sample figure caption} 
+\end{figure} 
+
+\subsection*{Acknowledgements} 
+
+Our thanks to everyone who helped to develop and refine this template.
+
+The acknowledgements and reference sections are introduced by a second
+level header, without numbers.
+
+\newpage % to balance the final columns
+
+\subsection*{References} 
+
+References follow the acknowledgements, and appear in alphabetical
+order by the first author's family name.
+
+The manuscripts should be carefully prepared using the Publication
+Manual of the American Psychological Association, 5th edition, 2001,
+for style.  More information on this style is available online at:
+\begin{itemize}
+  \item \footnotesize{\texttt{http://www.alastyle.org}}
+  \item \footnotesize{\texttt{http://www.wooster.edu/psychology/
+        apa-crib.html\#References}}
+\end{itemize}
+All works cited must be listed under references. Avoid abbreviation of
+journal titles and incomplete references. The forms of references and
+citations are given below. No other style will be accepted.
+
+\subsubsection*{Sample journal reference}
+
+Fox, E.~A.~\& Marchionini, G. (1998). Toward a worldwide digital
+library. \textit{Communications of the ACM}, 41(4), 29--32.
+
+\subsubsection*{Sample book reference}
+
+Korfhage, R.~R. (1997). \textit{Information storage and retrieval}.
+New York: Wiley.
+
+\subsubsection*{Sample chapter in edited book reference}
+
+White, H.~D. \& McCain, K.~W. (1997).  Visualization of literatures.
+In M.~E. Williams (Ed.), \textit{Annual review of information science
+and technology}: Vol. 32. (pp. 99--68).  Medford, NJ: Information
+Today.
+
+\subsubsection*{Sample conference paper reference}
+
+Hert, C.~A. \& Marchionini, G.  (1998). Information seeking behavior
+on statistical websites: Theoretical and design implications. In
+Preston, C.~M.~(Ed.), \textit{Proceedings of the American Society for
+Information Science}, 35, (pp. 303--314). Medford, NJ: Information
+Today.
+
+\subsubsection*{References to online journals}
+
+Marcum, D.~\& Friedlander, A.  (2003).  Keepers of the Crumbling
+Culture: What Digital Preservation Can Learn from Library History.
+\textit{D-Lib Magazine}, 9(5).  Retrieved June 13, 2003, from
+\footnotesize{\texttt{http://www.dlib.org/dlib/may03/
+friedlander/05friedlander.html}}
+
+\subsubsection*{References to web publication}
+
+\textit{XML Linking Language (XLink) Version 1.0}.  (2001).  Retrieved
+June 13, 2003, from
+\footnotesize{\texttt{http://www.w3.org/TR/
+2001/REC-xlink-20010627/}}
+
+\end{document}

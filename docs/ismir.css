@@ -1,0 +1,260 @@
+html{
+	margin: 3px;
+	padding:0;
+	background-color: #ffffff;
+	}
+
+body { 
+      margin: 3px;
+      padding: 0;
+      background-color: #ffffff;
+}
+
+table {
+margin-left:10px;
+font-family:Arial, Verdana, Helvetica, sans-serif;
+} 
+
+td {
+font-size:95%;
+text-align:left;
+}
+
+th{
+text-align:right;
+}
+
+
+#nav {     
+        position:relative;
+        top: 1em;
+        left:1em;       	
+       width:150px;
+        float:left;
+        padding-left: 2px;
+        font-size:0.9em; 
+        font-family:Verdana, Arial, Helvetica, sans-serif; 
+}
+
+
+.navbox {
+       background-color:#ffffff;
+       border-color:#ffffff;
+       border-style: solid;
+       border-width: 0 1px 1px 0;
+       font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+       font-size: 0.9em; 
+       font-weight: 300;
+       line-height: 14px;
+       margin: 2px 1px;
+       padding: 2px;
+       width: 150px;
+}
+
+.navlink {
+        font-weight:300;
+        font-size:0.95em;
+        font-family:Verdana, Arial, Helvetica, sans-serif; 
+}
+
+a.navlink {
+  color:#0000cc;
+  text-decoration:none; 
+  background:transparent; 
+  width: 150px;  
+  }
+a.navlink:visited {
+  color: #996699; 
+  text-decoration:none;
+  background: transparent;
+  width: 150px;  
+  }
+a.navlink:hover { 
+  color:#ff0000;
+  text-decoration:underline; 
+  background:transparent;
+  width:150px;
+  }
+
+.navtot {
+    color: #000000; 
+    text-decoration: none; 
+    font-weight:500;
+    background:transparent; 
+    width: 150px; 
+}
+
+a.navtot {
+     color: #000000; 
+     text-decoration: none; 
+     font-weight: 300;
+     background:transparent; 
+     width: 150px; 
+} 
+
+
+#content {
+        position:relative;
+	padding: 10px 10px 10px 10px;
+        margin-left:220px;
+        margin-top:-1px;
+        font-size:85%; 
+        font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+
+.programcontent {
+        margin-left:10px;
+        margin-top:-1px;
+        font-size:0.9em;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td.day {
+color:#ff0000;
+font-weight:600;
+}
+
+#header {
+       	background-color: #000066;
+        height:30px;
+        padding-left: 20px;
+	color: #ffffff;
+        font-weight:600;
+        font-size:1.5em; 
+        font-family:"Trebuchet MS",Georgia,"Times New Roman",serif;
+        margin-bottom:0px;
+	}
+
+#title {
+        padding: 10px 10px 10px 10px;
+        margin-left:220px;
+        margin-top:-1px;
+        text-align:center;
+	font-weight:600;
+        font-size:0.9em;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+#tutitle {
+        padding: 10px 10px 10px 10px;
+        margin-left:220px;
+        margin-top:-1px;
+        text-align:left;
+	color:#ff0000;
+        font-weight:600;
+        font-size:0.9em;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.abstract{
+        text-align:justify;
+}
+
+#footer{
+       clear:left;
+       background-color: #000066;
+       height: 50px;
+       color: #ffffff;
+       text-align: center;
+       font-size: 0.75em;
+       font-family:Verdana, Arial, Helvetica, sans-serif;
+       padding: 2px;
+       margin-bottom:0;
+}
+
+.footr {
+        background-color: #000066;
+        color: #ffffff;
+        font-size: 0.9em;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.footr:link {
+  color:#ffffff; 
+  text-decoration:underline;
+  background:transparent;
+}
+
+a.footr:visited {
+  color: #996699;
+  text-decoration:underline;
+  background: transparent;
+}
+
+a.footr:hover {
+  color:#ffffff; 
+  text-decoration:underline;
+  background:transparent;
+}
+
+a.footr:navtot {
+  color: #ffffff;
+  text-decoration:underline;
+  font-weight:400;
+  background:transparent;
+}
+
+.spacer {
+	clear: both;
+}
+	
+p{
+     padding: 0;
+     margin-top: 0px;
+     font-size:0.95em;
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2{
+color:#ff0000;
+font-size:0.95em;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h3{
+font-size:1.65em;
+margin-bottom:0;
+}
+
+.mar{
+text-align: center;
+}
+
+
+dd, dt, dl {
+      font-size:0.95em;
+      font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  color:#0000cc;
+  text-decoration: none;
+}
+
+a:visited{
+  color:#996699;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#ff0000;
+  text-decoration:underline;
+}
+
+a:active{
+  color:#0000cc;
+  text-decoration:none;
+}
+
+img {
+border:none;
+}
+
+.highlight{
+background-color:#dddddd;
+}
+
+.emph{
+color:#ff0000;
+}
